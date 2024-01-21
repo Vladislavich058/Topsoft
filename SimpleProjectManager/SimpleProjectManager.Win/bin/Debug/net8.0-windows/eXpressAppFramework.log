@@ -1,0 +1,386 @@
+15.01.24 21:14:12.605	================================================================================
+15.01.24 21:14:12.622	Trace Log for SimpleProjectManager.Win is started
+15.01.24 21:14:12.624	================================================================================
+15.01.24 21:14:12.628	System Environment
+	OS Version: Microsoft Windows NT 10.0.19045.0
+	CLR Version: 8.0.1
+	eXpressApp Version: 23.2.3.0
+	eXpressApp File Version: 23.2.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+15.01.24 21:14:14.300	Initialize application
+=======================
+15.01.24 21:14:16.691	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+15.01.24 21:14:16.695	--------------------------------------------------------------------------------
+							
+
+15.01.24 21:14:16.716	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v23.2.dll
+	DevExpress.Data.Desktop.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v23.2.dll
+	DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Data.v23.2.dll
+	DevExpress.Drawing.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v23.2.dll
+	DevExpress.ExpressApp.Objects.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v23.2.dll
+	DevExpress.ExpressApp.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v23.2.dll
+	DevExpress.ExpressApp.Win.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v23.2.dll
+	DevExpress.ExpressApp.Xpo.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v23.2.dll
+	DevExpress.Persistent.Base.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v23.2.dll
+	DevExpress.Printing.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v23.2.Core.dll
+	DevExpress.Utils.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v23.2.dll
+	DevExpress.Xpo.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v23.2.dll
+	DevExpress.XtraBars.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v23.2.dll
+	DevExpress.XtraEditors.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v23.2.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\netstandard.dll
+	SimpleProjectManager.Module, Version=1.0.8780.37882, Culture=neutral, PublicKeyToken=null, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\SimpleProjectManager.Module.dll
+	SimpleProjectManager.Win, Version=1.0.8780.38220, Culture=neutral, PublicKeyToken=null, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\SimpleProjectManager.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Data.Common.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.IO.Compression.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Windows.Forms.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Xml.XmlSerializer.dll
+15.01.24 21:14:17.304	SetupModules
+15.01.24 21:14:17.354	Customize TypesInfo
+15.01.24 21:14:17.411	The ValueManagerType is initialized by the default value: SimpleValueManager.
+15.01.24 21:14:17.444	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   at DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass78_0.<SetupCore>b__0()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+
+15.01.24 21:14:22.967		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+15.01.24 21:14:22.972		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+15.01.24 21:14:23.844	--------------------------------------------------------------------------------
+							Start logon process
+
+15.01.24 21:14:23.851	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+15.01.24 21:14:23.856		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=topsoftDB;Encoding=UNICODE;XpoDataStorePool=True;
+15.01.24 21:14:23.858		ConnectionString: 
+15.01.24 21:14:25.028	--------------------------------------------------------------------------------
+							UpdateDB
+
+15.01.24 21:14:25.039		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=topsoftDB;Encoding=UNICODE;XpoDataStorePool=True;
+15.01.24 21:14:25.219	--------------------------------------------------------------------------------
+							Logon successful
+
+15.01.24 21:14:25.231	--------------------------------------------------------------------------------
+							Logon completed
+
+15.01.24 21:14:25.235		startUpActions: 0
+15.01.24 21:14:25.382	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+15.01.24 21:14:25.448	Generate default Model for Action containers
+15.01.24 21:14:31.729	Application startup done
+=========================
+15.01.24 21:14:31.732	Application running
+====================
+15.01.24 21:14:34.979	--------------------------------------------------------------------------------
+							Execute action
+
+15.01.24 21:14:34.982		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+15.01.24 21:14:34.990	Action 'ConfigureSkin' done
+15.01.24 21:14:40.669	Window closing: LightStyleMainRibbonForm
+15.01.24 21:14:40.880	Window closed: LightStyleMainRibbonForm
+15.01.24 21:14:41.204	Save model changes
+===================
+15.01.24 21:14:41.263	Save model changes
+===================
+15.01.24 21:14:41.285	--------------------------------------------------------------------------------
+							Logoff completed
+
+15.01.24 21:14:41.293	Application stopping
+=====================
+16.01.24 15:43:18.186	================================================================================
+16.01.24 15:43:18.201	Trace Log for SimpleProjectManager.Win is started
+16.01.24 15:43:18.203	================================================================================
+16.01.24 15:43:18.207	System Environment
+	OS Version: Microsoft Windows NT 10.0.19045.0
+	CLR Version: 8.0.1
+	eXpressApp Version: 23.2.3.0
+	eXpressApp File Version: 23.2.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+16.01.24 15:43:21.592	Initialize application
+=======================
+16.01.24 15:43:24.242	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+16.01.24 15:43:24.247	--------------------------------------------------------------------------------
+							
+
+16.01.24 15:43:24.270	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v23.2.dll
+	DevExpress.Data.Desktop.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v23.2.dll
+	DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Data.v23.2.dll
+	DevExpress.Drawing.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v23.2.dll
+	DevExpress.ExpressApp.Objects.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v23.2.dll
+	DevExpress.ExpressApp.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v23.2.dll
+	DevExpress.ExpressApp.Win.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v23.2.dll
+	DevExpress.ExpressApp.Xpo.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v23.2.dll
+	DevExpress.Persistent.Base.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v23.2.dll
+	DevExpress.Printing.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v23.2.Core.dll
+	DevExpress.Utils.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v23.2.dll
+	DevExpress.Xpo.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v23.2.dll
+	DevExpress.XtraBars.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v23.2.dll
+	DevExpress.XtraEditors.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v23.2.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\netstandard.dll
+	SimpleProjectManager.Module, Version=1.0.8781.27637, Culture=neutral, PublicKeyToken=null, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\SimpleProjectManager.Module.dll
+	SimpleProjectManager.Win, Version=1.0.8781.28293, Culture=neutral, PublicKeyToken=null, Location=D:\С#\SimpleProjectManager\SimpleProjectManager.Win\bin\Debug\net8.0-windows\SimpleProjectManager.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Data.Common.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.IO.Compression.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Windows.Forms.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.1\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.1\System.Xml.XmlSerializer.dll
+16.01.24 15:43:24.978	SetupModules
+16.01.24 15:43:25.180	Customize TypesInfo
+16.01.24 15:43:25.234	The ValueManagerType is initialized by the default value: SimpleValueManager.
+16.01.24 15:43:25.271	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   at DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   at DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass78_0.<SetupCore>b__0()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+
+16.01.24 15:43:33.526		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+16.01.24 15:43:33.533		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+16.01.24 15:43:34.583	--------------------------------------------------------------------------------
+							Start logon process
+
+16.01.24 15:43:34.594	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+16.01.24 15:43:34.603		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=topsoftDB;Encoding=UNICODE;XpoDataStorePool=True;
+16.01.24 15:43:34.606		ConnectionString: 
+16.01.24 15:43:36.441	--------------------------------------------------------------------------------
+							UpdateDB
+
+16.01.24 15:43:36.476		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=topsoftDB;Encoding=UNICODE;XpoDataStorePool=True;
+16.01.24 15:43:36.904	--------------------------------------------------------------------------------
+							Logon successful
+
+16.01.24 15:43:36.958	--------------------------------------------------------------------------------
+							Logon completed
+
+16.01.24 15:43:36.972		startUpActions: 0
+16.01.24 15:43:37.127	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+16.01.24 15:43:37.286	Generate default Model for Action containers
+16.01.24 15:44:18.237	--------------------------------------------------------------------------------
+							Execute action
+
+16.01.24 15:44:18.241		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+16.01.24 15:44:18.245	Action 'ConfigureSkin' done
+16.01.24 15:44:18.250	--------------------------------------------------------------------------------
+							Execute action
+
+16.01.24 15:44:18.253		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+16.01.24 15:44:18.257		SelectedItem: Customer
+16.01.24 15:44:21.364	Action 'ShowNavigationItem' done
+16.01.24 15:44:23.242	Application startup done
+=========================
+16.01.24 15:44:23.244	Application running
+====================
+16.01.24 15:44:25.245	--------------------------------------------------------------------------------
+							Execute action
+
+16.01.24 15:44:25.248		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+16.01.24 15:44:25.252		SelectedItem: Testimonial
+16.01.24 15:44:25.424	Action 'ShowNavigationItem' done
+16.01.24 15:44:36.385	--------------------------------------------------------------------------------
+							Execute action
+
+16.01.24 15:44:36.389		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Testimonial
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+16.01.24 15:44:36.392		SelectedItem: Testimonial
+16.01.24 15:44:37.204	Action 'New' done

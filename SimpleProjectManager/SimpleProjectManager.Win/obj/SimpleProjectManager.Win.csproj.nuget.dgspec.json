@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Win\\SimpleProjectManager.Win.csproj": {}
+  },
+  "projects": {
+    "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\SimpleProjectManager.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\SimpleProjectManager.Module.csproj",
+        "projectName": "SimpleProjectManager.Module",
+        "projectPath": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\SimpleProjectManager.Module.csproj",
+        "packagesPath": "C:\\Users\\vladp\\.nuget\\packages\\",
+        "outputPath": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vladp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.ConditionalAppearance": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.Objects": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Win\\SimpleProjectManager.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Win\\SimpleProjectManager.Win.csproj",
+        "projectName": "SimpleProjectManager.Win",
+        "projectPath": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Win\\SimpleProjectManager.Win.csproj",
+        "packagesPath": "C:\\Users\\vladp\\.nuget\\packages\\",
+        "outputPath": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vladp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\SimpleProjectManager.Module.csproj": {
+                "projectPath": "D:\\С#\\SimpleProjectManager\\SimpleProjectManager.Module\\SimpleProjectManager.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.Win": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.Win.Design": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.RichEdit.Export": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Win.Design": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "Xpand.XAF.Modules.Blazor": {
+              "target": "Package",
+              "version": "[4.232.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
